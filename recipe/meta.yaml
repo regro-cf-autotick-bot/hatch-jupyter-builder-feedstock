@@ -24,10 +24,14 @@ requirements:
     - hatchling >=1.0
 
 test:
+  source_files:
+    - .
   imports:
     - hatch_jupyter_builder
   commands:
     - pip check
+    - pip install -e ".[test]"
+    - python -m pytest -vv
   requires:
     - pip
 
