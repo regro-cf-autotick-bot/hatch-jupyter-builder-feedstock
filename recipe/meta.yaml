@@ -1,5 +1,5 @@
 {% set name = "hatch-jupyter-builder" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_jupyter_builder-{{ version }}.tar.gz
-  sha256: fb39c0add20341e02b14bc585e22c3218c9bd81f3235e9b3b5f5e07e34788f23
+  sha256: fd118fb99ba6836d2b1484324164d2c15d59794699e02ee1b39d9a42b68ef939
 
 build:
   noarch: python
