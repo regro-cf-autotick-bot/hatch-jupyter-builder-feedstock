@@ -1,11 +1,11 @@
-About hatch-jupyter-builder
-===========================
+About hatch-jupyter-builder-feedstock
+=====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-jupyter-builder-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pypi.org/project/hatch-jupyter-builder/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-jupyter-builder-feedstock/blob/main/LICENSE.txt)
 
 Summary: A hatch plugin to help build Jupyter packages
 
